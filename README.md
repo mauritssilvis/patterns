@@ -22,6 +22,12 @@ Finally, I aim to:
 
 - Showcase this experience and knowledge.
 
+## Status
+
+Currently, implementations of commonly used design patterns are available in:
+
+- [Java](java)
+
 ## License
 
 Copyright © 2022 Maurits H. Silvis
