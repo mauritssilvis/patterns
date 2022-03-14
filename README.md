@@ -17,10 +17,16 @@ More generally, I strive to:
 
 - Gain experience with different programming languages.
 - Get to know the specifics of these languages.
-  
+
 Finally, I aim to:
 
 - Showcase this experience and knowledge.
+
+## Status
+
+Currently, implementations of commonly used design patterns are available in:
+
+- [Java](java)
 
 ## License
 
