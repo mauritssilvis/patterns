@@ -28,6 +28,14 @@ Currently, implementations of commonly used design patterns are available in:
 
 - [Java](java)
 
+## Background
+
+TODO
+
+### Singleton
+
+TODO
+
 ## License
 
 Copyright © 2022 Maurits H. Silvis

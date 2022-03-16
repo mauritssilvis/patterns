@@ -6,6 +6,12 @@
 
 With this part of the [Patterns](https://github.com/mauritssilvis/patterns) project, I provide implementations of commonly used design patterns in Java.
 
+## Status
+
+Currently, Java implementations of the following design patterns are available:
+
+- [Singleton](src/main/java/nl/mauritssilvis/patterns/java/singleton)
+
 ## License
 
 Copyright © 2022 Maurits H. Silvis
