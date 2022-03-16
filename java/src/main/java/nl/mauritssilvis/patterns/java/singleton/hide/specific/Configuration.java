@@ -21,7 +21,7 @@ public final class Configuration {
         return accessible;
     }
 
-    public void setAccess(boolean accessible) {
+    public void setAccessible(boolean accessible) {
         this.accessible = accessible;
     }
 }

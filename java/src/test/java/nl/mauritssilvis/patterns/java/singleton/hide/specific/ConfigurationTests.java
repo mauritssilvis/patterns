@@ -18,18 +18,20 @@ class ConfigurationTests {
     }
 
     @Test
-    void checkAccess() {
+    void ensureAccessibility() {
         Configuration configuration = Configuration.getInstance();
-        configuration.setAccess(false);
+        configuration.setAccessible(false);
 
         Assertions.assertFalse(configuration.isAccessible(), "The Configuration object has an unexpected accessibility.");
     }
 
     @Test
-    void changeAccess() {
+    void changeAccessibility() {
         Configuration configuration1 = Configuration.getInstance();
+        configuration1.setAccessible(false);
+
         Configuration configuration2 = Configuration.getInstance();
-        configuration2.setAccess(true);
+        configuration2.setAccessible(true);
 
         Assertions.assertAll(
                 () -> Assertions.assertTrue(configuration1.isAccessible(), "The first Configuration object has an unexpected accessibility."),
