@@ -8,12 +8,12 @@ package nl.mauritssilvis.patterns.java.singleton.protect.general;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class SingletonTests {
+class NoSingletonTests {
     @Test
     void getTheSameInstanceTwice() {
-        Singleton singleton1 = Singleton.getInstance();
-        Singleton singleton2 = Singleton.getInstance();
+        NoSingleton noSingleton1 = NoSingleton.getInstance();
+        NoSingleton noSingleton2 = NoSingleton.getInstance();
 
-        Assertions.assertEquals(singleton1, singleton2);
+        Assertions.assertEquals(noSingleton1, noSingleton2);
     }
 }
