@@ -6,10 +6,12 @@
 package nl.mauritssilvis.patterns.java.singleton.protect.general;
 
 public class Singleton {
+    private static final Singleton SINGLETON = new Singleton();
+
     protected Singleton() {
     }
 
     public static Singleton getInstance() {
-        return new Singleton();
+        return SINGLETON;
     }
 }

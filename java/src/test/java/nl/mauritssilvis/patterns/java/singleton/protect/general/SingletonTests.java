@@ -14,7 +14,6 @@ class SingletonTests {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 
-        // Fails
         Assertions.assertEquals(singleton1, singleton2);
     }
 }
