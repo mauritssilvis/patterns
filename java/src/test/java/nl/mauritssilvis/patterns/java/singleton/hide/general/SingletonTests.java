@@ -10,10 +10,10 @@ import org.junit.jupiter.api.Test;
 
 class SingletonTests {
     @Test
-    void getTheSameInstance() {
+    void getTheSameSingletonInstance() {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 
-        Assertions.assertSame(singleton1, singleton2, "Two instances of Singleton were created.");
+        Assertions.assertSame(singleton1, singleton2, "Two Singleton instances were created.");
     }
 }

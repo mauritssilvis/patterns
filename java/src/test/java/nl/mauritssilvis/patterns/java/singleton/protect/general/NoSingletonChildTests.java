@@ -10,10 +10,10 @@ import org.junit.jupiter.api.Test;
 
 class NoSingletonChildTests {
     @Test
-    void getDifferentInstances() {
+    void getDifferentNoSingletonInstances() {
         NoSingleton noSingleton1 = NoSingletonChild.getParentInstance();
         NoSingleton noSingleton2 = NoSingletonChild.getParentInstance();
 
-        Assertions.assertNotSame(noSingleton1, noSingleton2, "The same instance of NoSingleton was retrieved.");
+        Assertions.assertNotSame(noSingleton1, noSingleton2, "The same NoSingleton instance was retrieved.");
     }
 }

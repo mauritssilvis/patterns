@@ -10,10 +10,10 @@ import org.junit.jupiter.api.Test;
 
 class NoSingletonTests {
     @Test
-    void getTheSameInstance() {
+    void getTheSameNoSingletonInstance() {
         NoSingleton noSingleton1 = NoSingleton.getInstance();
         NoSingleton noSingleton2 = NoSingleton.getInstance();
 
-        Assertions.assertSame(noSingleton1, noSingleton2, "Two instances of NoSingleton were created.");
+        Assertions.assertSame(noSingleton1, noSingleton2, "Two NoSingleton instances were created.");
     }
 }
