@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 class SingletonTests {
     @Test
-    void getTheSameInstanceTwice() {
+    void getTheSameInstance() {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 
