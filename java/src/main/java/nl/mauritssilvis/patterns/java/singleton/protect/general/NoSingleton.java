@@ -6,12 +6,12 @@
 package nl.mauritssilvis.patterns.java.singleton.protect.general;
 
 public class NoSingleton {
-    private static final NoSingleton NO_SINGLETON = new NoSingleton();
+    private static final NoSingleton INSTANCE = new NoSingleton();
 
     protected NoSingleton() {
     }
 
     public static NoSingleton getInstance() {
-        return NO_SINGLETON;
+        return INSTANCE;
     }
 }

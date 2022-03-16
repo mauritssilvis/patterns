@@ -6,7 +6,7 @@
 package nl.mauritssilvis.patterns.java.singleton.hide.specific;
 
 public final class Configuration {
-    private static final Configuration CONFIGURATION = new Configuration();
+    private static final Configuration INSTANCE = new Configuration();
 
     private boolean accessible;
 
@@ -14,7 +14,7 @@ public final class Configuration {
     }
 
     public static Configuration getInstance() {
-        return CONFIGURATION;
+        return INSTANCE;
     }
 
     public boolean isAccessible() {
