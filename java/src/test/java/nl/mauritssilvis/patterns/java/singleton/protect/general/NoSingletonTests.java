@@ -14,6 +14,6 @@ class NoSingletonTests {
         NoSingleton noSingleton1 = NoSingleton.getInstance();
         NoSingleton noSingleton2 = NoSingleton.getInstance();
 
-        Assertions.assertEquals(noSingleton1, noSingleton2);
+        Assertions.assertSame(noSingleton1, noSingleton2, "Two instances of NoSingleton were created.");
     }
 }

@@ -14,6 +14,6 @@ class NoSingletonChildTests {
         NoSingleton noSingleton1 = NoSingletonChild.getParentInstance();
         NoSingleton noSingleton2 = NoSingletonChild.getParentInstance();
 
-        Assertions.assertNotEquals(noSingleton1, noSingleton2);
+        Assertions.assertNotSame(noSingleton1, noSingleton2, "The same instance of NoSingleton was retrieved.");
     }
 }

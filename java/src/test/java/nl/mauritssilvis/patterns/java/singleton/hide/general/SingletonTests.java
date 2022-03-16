@@ -14,6 +14,6 @@ class SingletonTests {
         Singleton singleton1 = Singleton.getInstance();
         Singleton singleton2 = Singleton.getInstance();
 
-        Assertions.assertEquals(singleton1, singleton2);
+        Assertions.assertSame(singleton1, singleton2, "Two instances of Singleton were created.");
     }
 }

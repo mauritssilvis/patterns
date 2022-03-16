@@ -14,7 +14,7 @@ class ConfigurationTests {
         Configuration configuration1 = Configuration.getInstance();
         Configuration configuration2 = Configuration.getInstance();
 
-        Assertions.assertEquals(configuration1, configuration2);
+        Assertions.assertSame(configuration1, configuration2, "Two configuration objects were created.");
     }
 
     @Test
@@ -22,7 +22,7 @@ class ConfigurationTests {
         Configuration configuration = Configuration.getInstance();
         configuration.setAccess(false);
 
-        Assertions.assertFalse(configuration.isAccessible());
+        Assertions.assertFalse(configuration.isAccessible(), "Unexpected accessibility.");
     }
 
     @Test
@@ -32,8 +32,8 @@ class ConfigurationTests {
         configuration2.setAccess(true);
 
         Assertions.assertAll(
-                () -> Assertions.assertTrue(configuration1.isAccessible()),
-                () -> Assertions.assertTrue(configuration2.isAccessible())
+                () -> Assertions.assertTrue(configuration1.isAccessible(), "Unexpected accessibility of the first configuration object."),
+                () -> Assertions.assertTrue(configuration2.isAccessible(), "Unexpected accessibility of the second configuration object.")
         );
     }
 }
