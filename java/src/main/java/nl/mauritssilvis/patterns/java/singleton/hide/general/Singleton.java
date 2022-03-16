@@ -5,7 +5,7 @@
 
 package nl.mauritssilvis.patterns.java.singleton.hide.general;
 
-public class Singleton {
+public final class Singleton {
     private static final Singleton SINGLETON = new Singleton();
 
     private Singleton() {

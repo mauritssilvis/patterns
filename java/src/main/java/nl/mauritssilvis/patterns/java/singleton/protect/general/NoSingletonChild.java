@@ -5,7 +5,10 @@
 
 package nl.mauritssilvis.patterns.java.singleton.protect.general;
 
-public class NoSingletonChild extends NoSingleton {
+public final class NoSingletonChild extends NoSingleton {
+    private NoSingletonChild() {
+    }
+
     public static NoSingleton getParentInstance() {
         return new NoSingleton();
     }

@@ -5,10 +5,10 @@
 
 package nl.mauritssilvis.patterns.java.singleton.hide.specific;
 
-public class Configuration {
+public final class Configuration {
     private static final Configuration CONFIGURATION = new Configuration();
 
-    private boolean accessible = false;
+    private boolean accessible;
 
     private Configuration() {
     }
