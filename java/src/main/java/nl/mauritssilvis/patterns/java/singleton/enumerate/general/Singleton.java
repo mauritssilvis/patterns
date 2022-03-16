@@ -6,5 +6,5 @@
 package nl.mauritssilvis.patterns.java.singleton.enumerate.general;
 
 public enum Singleton {
-    SINGLETON
+    INSTANCE
 }

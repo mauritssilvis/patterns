@@ -11,15 +11,15 @@ import org.junit.jupiter.api.Test;
 class ConfigurationTests {
     @Test
     void getTheSameConfigurationInstance() {
-        Configuration configuration1 = Configuration.CONFIGURATION;
-        Configuration configuration2 = Configuration.CONFIGURATION;
+        Configuration configuration1 = Configuration.INSTANCE;
+        Configuration configuration2 = Configuration.INSTANCE;
 
         Assertions.assertSame(configuration1, configuration2, "Two Configuration enum instances were created.");
     }
 
     @Test
     void ensureAccessibility() {
-        Configuration configuration = Configuration.CONFIGURATION;
+        Configuration configuration = Configuration.INSTANCE;
         configuration.setAccessible(true);
 
         Assertions.assertTrue(configuration.isAccessible(), "The Configuration enum has an unexpected accessibility.");
@@ -27,10 +27,10 @@ class ConfigurationTests {
 
     @Test
     void changeAccessibility() {
-        Configuration configuration1 = Configuration.CONFIGURATION;
+        Configuration configuration1 = Configuration.INSTANCE;
         configuration1.setAccessible(true);
 
-        Configuration configuration2 = Configuration.CONFIGURATION;
+        Configuration configuration2 = Configuration.INSTANCE;
         configuration2.setAccessible(false);
 
         Assertions.assertAll(

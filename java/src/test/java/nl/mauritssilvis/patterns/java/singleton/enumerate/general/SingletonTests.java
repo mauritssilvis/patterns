@@ -11,8 +11,8 @@ import org.junit.jupiter.api.Test;
 class SingletonTests {
     @Test
     void getTheSameSingletonInstance() {
-        Singleton singleton1 = Singleton.SINGLETON;
-        Singleton singleton2 = Singleton.SINGLETON;
+        Singleton singleton1 = Singleton.INSTANCE;
+        Singleton singleton2 = Singleton.INSTANCE;
 
         Assertions.assertSame(singleton1, singleton2, "Two Singleton enum instances were created.");
     }

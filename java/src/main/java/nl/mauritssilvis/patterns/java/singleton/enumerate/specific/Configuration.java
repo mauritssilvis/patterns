@@ -6,7 +6,7 @@
 package nl.mauritssilvis.patterns.java.singleton.enumerate.specific;
 
 public enum Configuration {
-    CONFIGURATION;
+    INSTANCE;
 
     private boolean accessible;
 
