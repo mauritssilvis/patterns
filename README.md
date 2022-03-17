@@ -8,7 +8,7 @@ With this project, I provide implementations of commonly used design patterns in
 
 Below, I first describe the [aims](#1-aims) I have with the current project.
 Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
-In addition, I provide some [background information](#3-background) on the design patterns focussed on in this project.
+In addition, I provide some [background information](#3-background) on the design patterns I focus on in this project.
 
 ## 1. Aims
 
@@ -32,7 +32,11 @@ Currently, implementations of commonly used design patterns are available in:
 
 - [Java](java)
 
-TODO: Provide a pattern x language matrix of the design pattern implementations.
+More specifically, I provide the following design pattern implementations:
+
+| Design pattern | Java                                                             |
+|----------------|------------------------------------------------------------------|
+| Singleton      | [✅](java/src/main/java/nl/mauritssilvis/patterns/java/singleton) |
 
 ## 3. Background
 
@@ -46,7 +50,7 @@ In this project, I currently focus on the following creational design patterns:
 
 The singleton design pattern could well be the easiest and most well-known design pattern.
 The basic idea of this pattern is to ensure that there is only a single instance of a certain class.
-Any attempts to retrieve or create another instance of this class should again lead to this same, single object.
+Any attempts to retrieve or create another instance of this class lead to this same, single object.
 This object, which could be called a singleton instance, thus, acts as a kind of global.
 
 The use of a global, singleton object can be practical in several situations.

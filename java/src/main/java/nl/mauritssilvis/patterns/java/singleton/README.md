@@ -4,11 +4,11 @@
 
 ## Introduction
 
-With this part of the [Patterns > Java](..) project, I provide implementations of the singleton pattern in Java.
+With this part of the [Patterns > Java](..) project, I provide implementations of the singleton design pattern in Java.
 
-TODO: List the available numbered sections.
+In what follows, I give an overview of these [implementations](#1-implementations).
 
-TODO: Refer to information about the singleton design pattern.
+For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../#311-singleton).
 
 ## 1. Implementations
 
