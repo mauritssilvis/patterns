@@ -32,9 +32,13 @@ Currently, implementations of commonly used design patterns are available in:
 
 - [Java](java)
 
+TODO: Provide a pattern x language matrix of the design pattern implementations.
+
 ## 3. Background
 
-In this project, I currently focus on the following design pattern: [singleton](#31-singleton).
+In this project, I currently focus on the following design patterns:
+
+- [Singleton](#31-singleton)
 
 ### 3.1 Singleton
 

@@ -8,23 +8,21 @@ With this part of the [Patterns > Java](..) project, I provide implementations o
 
 TODO: List the available numbered sections.
 
-## 1. Background
+TODO: Refer to information about the singleton design pattern.
 
-TODO: Refer to information about Java and the singleton design pattern.
-
-## 2. Implementations
+## 1. Implementations
 
 TODO: Briefly introduce the different implementations.
 
-### 2.1 A class with a private constructor
+### 1.1 A class with a private constructor
 
 TODO
 
-### 2.2 A class with a protected constructor
+### 1.2 A class with a protected constructor
 
 TODO
 
-### 2.3 An enum
+### 1.3 An enum
 
 TODO
 
