@@ -2,11 +2,15 @@
 
 > A collection of design patterns, implemented in different programming languages
 
-## About
+## Introduction
 
 With this project, I provide implementations of commonly used design patterns in different programming languages.
 
-## Aims
+Below, I first describe the [aims](#1-aims) I have with this project.
+Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
+In addition, I provide some [background information](#3-background) on the design patterns focussed on in this project.
+
+## 1. Aims
 
 My aims with this project are to:
 
@@ -22,13 +26,13 @@ Finally, I aim to:
 
 - Showcase this experience and knowledge.
 
-## Status
+## 2. Overview
 
 Currently, implementations of commonly used design patterns are available in:
 
 - [Java](java)
 
-## Background
+## 3. Background
 
 In this project, I currently focus on the following design patterns.
 
