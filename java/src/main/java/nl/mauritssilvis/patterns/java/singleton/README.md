@@ -4,11 +4,11 @@
 
 ## Introduction
 
-With this part of the [Patterns > Java](..) project, I provide implementations of the singleton design pattern in Java.
+With this part of the [Patterns > Java](../../../../../../../..) project, I provide implementations of the singleton design pattern in Java.
 
-In what follows, I give an overview of these [implementations](#1-implementations).
+In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations.
 
-For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../#311-singleton).
+For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../#311-singleton) of the [Patterns](../../../../../../../../..) project.
 
 ## 1. Implementations
 
@@ -18,11 +18,13 @@ TODO: Briefly introduce the different implementations.
 
 TODO
 
-### 1.2 A class with a protected constructor
+### 1.3 An enum
 
 TODO
 
-### 1.3 An enum
+## 2. Faulty implementations
+
+### 2.1 A class with a protected constructor
 
 TODO
 
