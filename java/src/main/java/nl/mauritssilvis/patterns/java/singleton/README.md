@@ -6,13 +6,15 @@
 
 With this part of the [Patterns > Java](..) project, I provide implementations of the singleton pattern in Java.
 
+TODO: List the available numbered sections.
+
 ## 1. Background
 
-TODO
+TODO: Refer to information about Java and the singleton design pattern.
 
 ## 2. Implementations
 
-TODO
+TODO: Briefly introduce the different implementations.
 
 ### 2.1 A class with a private constructor
 
