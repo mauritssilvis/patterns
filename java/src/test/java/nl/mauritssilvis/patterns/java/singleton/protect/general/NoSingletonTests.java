@@ -16,4 +16,12 @@ class NoSingletonTests {
 
         Assertions.assertSame(noSingleton1, noSingleton2, "Two NoSingleton instances were created.");
     }
+
+    @Test
+    void getDifferentNoSingletonInstances() {
+        NoSingleton noSingleton1 = new NoSingleton();
+        NoSingleton noSingleton2 = new NoSingleton();
+
+        Assertions.assertNotSame(noSingleton1, noSingleton2, "The same NoSingleton instance was constructed.");
+    }
 }
