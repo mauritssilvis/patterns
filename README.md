@@ -36,24 +36,26 @@ TODO: Provide a pattern x language matrix of the design pattern implementations.
 
 ## 3. Background
 
-In this project, I currently focus on the following design patterns:
+In this project, I currently focus on the following creational design patterns:
 
-- [Singleton](#31-singleton)
+- [Singleton](#311-singleton)
 
-### 3.1 Singleton
+## 3.1 Creational design patterns
+
+### 3.1.1 Singleton
 
 The singleton design pattern could well be the easiest and most well-known design pattern.
 The basic idea of this pattern is to ensure that there is only a single instance of a certain class.
-Any attempts to retrieve an(other) instance of this class should again lead to this same, single object.
+Any attempts to retrieve or create another instance of this class should again lead to this same, single object.
 This object, which could be called a singleton instance, thus, acts as a kind of global.
 
-The use of a global, singleton object could be practical in several situations.
+The use of a global, singleton object can be practical in several situations.
 Think, for example, of an object that should store the global configuration of an application or an object that should manage access to external resources such as databases or files.
 
 It should be noted, however, that the singleton design pattern is also often criticized.
 For one thing, singletons break the single-responsibility principle.
 Next to the application-related tasks they are given, they are responsible for their own creation.
-Secondly, global objects that persist in time are notoriously hard to test since they may cause (unit) tests to become dependent on each other.
+Secondly, global objects that persist in time are notoriously hard to test since they may cause (unit) tests to interfere with each other.
 
 For the sake of completeness, I do include the singleton design pattern in this project.
 
