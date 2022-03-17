@@ -6,7 +6,7 @@
 
 With this project, I provide implementations of commonly used design patterns in different programming languages.
 
-Below, I first describe the [aims](#1-aims) I have with this project.
+Below, I first describe the [aims](#1-aims) I have with the current project.
 Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
 In addition, I provide some [background information](#3-background) on the design patterns focussed on in this project.
 
@@ -34,9 +34,9 @@ Currently, implementations of commonly used design patterns are available in:
 
 ## 3. Background
 
-In this project, I currently focus on the following design patterns.
+In this project, I currently focus on the following design pattern: [singleton](#31-singleton).
 
-### Singleton
+### 3.1 Singleton
 
 The singleton design pattern could well be the easiest and most well-known design pattern.
 The basic idea of this pattern is to ensure that there is only a single instance of a certain class.
@@ -48,10 +48,10 @@ Think, for example, of an object that should store the global configuration of a
 
 It should be noted, however, that the singleton design pattern is also often criticized.
 For one thing, singletons break the single-responsibility principle.
-Next to the tasks they are given, they are responsible for their own creation and lifetime.
+Next to the application-related tasks they are given, they are responsible for their own creation.
 Secondly, global objects that persist in time are notoriously hard to test since they may cause (unit) tests to become dependent on each other.
 
-For the sake of completeness, I did include the singleton design pattern in this project.
+For the sake of completeness, I do include the singleton design pattern in this project.
 
 ## License
 

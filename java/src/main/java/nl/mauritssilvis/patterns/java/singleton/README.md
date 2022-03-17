@@ -2,27 +2,27 @@
 
 > The singleton design pattern, implemented in Java
 
-## About
+## Introduction
 
-With this part of the [Patterns](https://github.com/mauritssilvis/patterns) project, I provide implementations of the singleton pattern in Java.
+With this part of the [Patterns > Java](..) project, I provide implementations of the singleton pattern in Java.
 
-## Background
-
-TODO
-
-## Implementations
+## 1. Background
 
 TODO
 
-### Classes with a private constructor
+## 2. Implementations
 
 TODO
 
-### Classes with a protected constructor
+### 2.1 A class with a private constructor
 
 TODO
 
-### Enums
+### 2.2 A class with a protected constructor
+
+TODO
+
+### 2.3 An enum
 
 TODO
 
