@@ -2,11 +2,15 @@
 
 > A collection of design patterns, implemented in different programming languages
 
-## About
+## Introduction
 
 With this project, I provide implementations of commonly used design patterns in different programming languages.
 
-## Aims
+Below, I first describe the [aims](#1-aims) I have with the current project.
+Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
+In addition, I provide some [background information](#3-background) on the design patterns I focus on in this project.
+
+## 1. Aims
 
 My aims with this project are to:
 
@@ -22,11 +26,40 @@ Finally, I aim to:
 
 - Showcase this experience and knowledge.
 
-## Status
+## 2. Overview
 
 Currently, implementations of commonly used design patterns are available in:
 
 - [Java](java)
+
+More specifically, I provide the following design pattern implementations:
+
+| Design pattern | Java                                                             |
+|----------------|------------------------------------------------------------------|
+| Singleton      | [✅](java/src/main/java/nl/mauritssilvis/patterns/java/singleton) |
+
+## 3. Background
+
+More information on the [creational design patterns](#31-creational-design-patterns) that I focus on in this project is given in what follows.
+
+## 3.1 Creational design patterns
+
+### 3.1.1 Singleton
+
+The singleton design pattern could well be the easiest and most well-known design pattern.
+The basic idea of this pattern is to ensure that there is only a single instance of a certain class.
+Any attempts to retrieve or create another instance of this class lead to this same, single object.
+This object, which could be called a singleton instance, thus, acts as a kind of global.
+
+The use of a global singleton object can be practical in several situations.
+Think, for example, of an object that should store the global configuration of an application or an object that should manage access to external resources such as databases or files.
+
+It should be noted, however, that the singleton design pattern is also often criticized.
+For one thing, singletons break the single-responsibility principle.
+Next to the application-related tasks they are given, they are responsible for their own creation.
+Secondly, global objects that persist in time are notoriously hard to test since they may cause (unit) tests to interfere with each other.
+
+For the sake of completeness, I do include the singleton design pattern in this project.
 
 ## License
 

@@ -1,8 +1,13 @@
+/*
+ * Copyright © 2022 Maurits H. Silvis
+ * SPDX-License-Identifier: GPL-3.0-or-later
+ */
+
 plugins {
     id 'java'
 }
 
-group 'nl.mauritssilvis'
+group 'nl.mauritssilvis.patterns.java'
 version '1.0-SNAPSHOT'
 
 repositories {
