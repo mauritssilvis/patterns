@@ -40,9 +40,7 @@ More specifically, I provide the following design pattern implementations:
 
 ## 3. Background
 
-In this project, I currently focus on the following creational design patterns:
-
-- [Singleton](#311-singleton)
+More information on the [creational design patterns](#31-creational-design-patterns) that I focus on in this project is given in what follows.
 
 ## 3.1 Creational design patterns
 
@@ -53,7 +51,7 @@ The basic idea of this pattern is to ensure that there is only a single instance
 Any attempts to retrieve or create another instance of this class lead to this same, single object.
 This object, which could be called a singleton instance, thus, acts as a kind of global.
 
-The use of a global, singleton object can be practical in several situations.
+The use of a global singleton object can be practical in several situations.
 Think, for example, of an object that should store the global configuration of an application or an object that should manage access to external resources such as databases or files.
 
 It should be noted, however, that the singleton design pattern is also often criticized.
