@@ -8,7 +8,7 @@ With this part of the [Patterns > Java](../../../../../../../..) project, I prov
 
 In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations.
 
-For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../#311-singleton) of the [Patterns](../../../../../../../../..) project.
+For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../README.md#311-singleton) of the general [project readme](../../../../../../../../../README.md).
 
 ## 1. Implementations
 
