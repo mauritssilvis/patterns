@@ -12,7 +12,7 @@ For general information about the singleton design pattern, refer to the [single
 
 ## 1. Implementations
 
-There are two commons ways in which the singleton design pattern is implemented in Java.
+There are two commons ways to implement the singleton design pattern in Java.
 
 ### 1.1 A class with a private constructor
 
@@ -37,13 +37,13 @@ public final class Singleton {
 
 Unit tests verify the singleton nature of the above class.
 
-Note that use was made of eager initialization of the singleton instance to guarantee thread safety without additional checks.
+Note that I made use of eager initialization of the singleton instance to guarantee thread safety without additional checks.
 Additionally, the keyword `final` is only applied to the class to remind us that extending a class with a private constructor is impossible.
 Use of this keyword is not essential for the singleton pattern.
 
 A specific singleton implementation that makes use of a private constructor and that represents a global configuration class is provided by the file [Configuration.java](hide/specific/Configuration.java).
 
-### 1.3 An enum
+### 1.2 An enum
 
 Another Java implementation of the singleton design pattern benefits from the property that `enum` values are unique.
 
