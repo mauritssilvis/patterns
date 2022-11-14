@@ -43,7 +43,7 @@ Use of this keyword is not essential for the singleton pattern.
 
 A specific singleton implementation that makes use of a private constructor and that represents a global configuration class is provided by the file [Configuration.java](hide/specific/Configuration.java).
 
-### 1.3 An enum
+### 1.2 An enum
 
 Another Java implementation of the singleton design pattern benefits from the property that `enum` values are unique.
 

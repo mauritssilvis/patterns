@@ -42,9 +42,9 @@ More specifically, I provide the following design pattern implementations:
 
 More information on the [creational design patterns](#31-creational-design-patterns) that I focus on in this project is given in what follows.
 
-## 3.1 Creational design patterns
+### 3.1 Creational design patterns
 
-### 3.1.1 Singleton
+#### 3.1.1 Singleton
 
 The singleton design pattern could well be the easiest and most well-known design pattern.
 The basic idea of this pattern is to ensure that there is only a single instance of a certain class.
