@@ -54,12 +54,12 @@ This object, which could be called a singleton instance, thus, acts as a kind of
 The use of a global singleton object can be practical in several situations.
 Think, for example, of an object that should store the global configuration of an application or an object that should manage access to external resources such as databases or files.
 
-It should be noted, however, that the singleton design pattern is also often criticized.
+It should be noted, however, that the singleton design pattern is often criticized.
 For one thing, singletons break the single-responsibility principle.
 Next to the application-related tasks they are given, they are responsible for their own creation.
 Secondly, global objects that persist in time are notoriously hard to test since they may cause (unit) tests to interfere with each other.
 
-For the sake of completeness, I do include the singleton design pattern in this project.
+For the sake of completeness, I do include implementations of the singleton design pattern in this project.
 
 ## License
 
