@@ -19,6 +19,13 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.2")
 }
 
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(19))
+        vendor.set(JvmVendorSpec.ADOPTIUM)
+    }
+}
+
 tasks {
     test {
         useJUnitPlatform()
