@@ -110,6 +110,10 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
+# Azure Toolkit for IntelliJ plugin
+# https://plugins.jetbrains.com/plugin/8053-azure-toolkit-for-intellij
+.idea/**/azureSettings.xml
+
 ### Java ###
 # Compiled class file
 *.class
@@ -158,5 +162,9 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+### Gradle Patch ###
+# Java heap dump
+*.hprof
 
 # End of https://gitignore.io/api/java,intellij,gradle
