@@ -1,10 +1,10 @@
 # Patterns
 
-> A collection of design patterns, implemented in different programming languages
+> A collection of design patterns
 
 ## Introduction
 
-With this project, I provide implementations of commonly used design patterns in different programming languages.
+With this educational project, I provide implementations of commonly used design patterns.
 
 Below, I first describe the [aims](#1-aims) I have with the current project.
 Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
@@ -63,6 +63,6 @@ For the sake of completeness, I do include implementations of the singleton desi
 
 ## License
 
-Copyright © 2022 Maurits H. Silvis
+Copyright © 2022, 2023 Maurits H. Silvis
 
 This source code package is subject to the terms and conditions defined in the GNU General Public License v3.0, which can be found in the file [LICENSE.md](LICENSE.md), or later.
