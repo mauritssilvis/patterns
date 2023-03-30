@@ -8,7 +8,7 @@ With this part of the [Patterns](https://github.com/mauritssilvis/patterns) > [J
 
 In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations of this design pattern.
 
-For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../README.md#311-singleton) of the general [project readme](../../../../../../../../../README.md).
+For general information about the singleton design pattern, refer to the [singleton section](https://github.com/mauritssilvis/patterns#311-singleton) of the [Patterns](https://github.com/mauritssilvis/patterns) readme.
 
 ## 1. Implementations
 
