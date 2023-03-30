@@ -5,7 +5,6 @@
 
 plugins {
     java
-    id("com.github.ben-manes.versions") version "0.46.0"
 }
 
 group = "nl.mauritssilvis.patterns.java"
@@ -16,9 +15,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.2")
+    testImplementation(libs.junit.jupiter.api)
 
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.9.2")
+    testRuntimeOnly(libs.junit.jupiter.engine)
 }
 
 java {
