@@ -91,6 +91,6 @@ Unit tests verify that child classes and classes within the same package can cre
 
 ## License
 
-Copyright © 2022, 2023 Maurits H. Silvis
+Copyright © 2022, 2023 Maurits Silvis
 
 This source code package is subject to the terms and conditions defined in the GNU General Public License v3.0, which can be found in the file [LICENSE.md](../../../../../../../../../LICENSE.md), or later.
