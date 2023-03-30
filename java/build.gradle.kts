@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "nl.mauritssilvis.patterns.java"
-version = "0.1.0-SNAPSHOT"
+version = libs.versions.java.patterns.get()
 
 repositories {
     mavenCentral()
