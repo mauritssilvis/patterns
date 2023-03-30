@@ -1,4 +1,4 @@
-# Patterns > Java
+# Java patterns
 
 > A collection of design patterns implemented in Java
 

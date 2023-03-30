@@ -1,4 +1,4 @@
-# Patterns > Java > Singleton
+# Java singleton pattern
 
 > The singleton design pattern implemented in Java
 
