@@ -6,7 +6,7 @@
 
 With this part of the [Patterns](https://github.com/mauritssilvis/patterns) > [Java](../../../../../../../..) project, I provide implementations of the singleton design pattern in Java.
 
-In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations.
+In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations of this design pattern.
 
 For general information about the singleton design pattern, refer to the [singleton section](../../../../../../../../../README.md#311-singleton) of the general [project readme](../../../../../../../../../README.md).
 
