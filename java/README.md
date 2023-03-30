@@ -6,7 +6,7 @@
 
 With this part of the [Patterns](https://github.com/mauritssilvis/patterns) project, I provide implementations of commonly used design patterns in Java.
 
-Below, I give an [overview](#1-overview) of the available Java implementations of design patterns.
+Below, I give an [overview](#1-overview) of the available design pattern implementations.
 
 ## 1. Overview
 
