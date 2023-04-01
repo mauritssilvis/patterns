@@ -48,8 +48,8 @@ More information on the [creational design patterns](#31-creational-design-patte
 
 The singleton design pattern could well be the most well-known design pattern.
 The basic idea of this pattern is to ensure that there is only a single instance of a particular class.
-Any attempts to retrieve or create another instance of this class lead to this same single object.
-This object, which could be called a singleton instance, thus, acts as a sort of global.
+Any attempts to retrieve or create another instance of this class lead to this same object.
+This object, which could be called a singleton instance, thus, acts as a global.
 
 The use of a global singleton object can be practical in several situations.
 Think, for example, of an object that should store the global configuration of an application or an object that should manage access to external resources such as databases or files.
