@@ -57,9 +57,9 @@ public enum Singleton {
 }
 ```
 
-Again, unit tests verify that an `enum` forms a valid implementation of the singleton pattern. 
+Again, unit tests verify that an `enum` forms a valid implementation of the singleton pattern.
 
-A specific singleton implementation of the `enum` type is given by [Configuration.java](enumerate/specific/Configuration.java). 
+A specific singleton implementation of the `enum` type is given by [Configuration.java](enumerate/specific/Configuration.java).
 
 ## 2. Faulty implementations
 
