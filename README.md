@@ -28,7 +28,7 @@ Finally, I aim to:
 
 ## 2. Overview
 
-Currently, implementations of commonly used design patterns are available in:
+Currently, implementations of commonly used design patterns are available in the following languages:
 
 - [Java](java)
 
