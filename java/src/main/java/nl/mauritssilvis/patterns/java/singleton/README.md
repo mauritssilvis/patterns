@@ -12,11 +12,11 @@ For general information about the singleton design pattern, refer to the [single
 
 ## 1. Implementations
 
-There are two common ways to implement the singleton design pattern in Java.
+There are two common ways to implement the singleton design pattern in Java, using a [private constructor](#11-a-class-with-a-private-constructor) and using an [enum](#12-an-enum).
 
 ### 1.1 A class with a private constructor
 
-The first implementation relies on using a `private` constructor, a `static` class instance and a `static` method for retrieving this instance.
+The first singleton implementation I discuss relies on a `private` constructor, a `static` instance and a `static` method for retrieving this instance.
 
 The file [Singleton.java](hide/general/Singleton.java) contains an abstract version of such a singleton implementation:
 
