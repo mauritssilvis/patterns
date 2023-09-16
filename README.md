@@ -10,6 +10,8 @@ Below, I first describe the [aims](#1-aims) I have with the current project.
 Then, I provide an [overview](#2-overview) of the design pattern implementations that are currently available.
 In addition, I provide some [background information](#3-background) on the design patterns I focus on in this project.
 
+The release history of this project is contained in the [changelog](CHANGELOG.md).
+
 ## 1. Aims
 
 My aims with this project are to:
