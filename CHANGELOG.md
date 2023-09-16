@@ -9,4 +9,4 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Implement the singleton design pattern in Java.
+- Add Java singleton design pattern implementations.
