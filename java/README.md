@@ -12,7 +12,9 @@ Below, I give an [overview](#overview) of the available design pattern implement
 
 Currently, Java implementations of the following design patterns are available:
 
-- [Singleton](src/main/java/nl/mauritssilvis/patterns/java/singleton)
+| Design pattern                                                      |
+|---------------------------------------------------------------------|
+| [Singleton](src/main/java/nl/mauritssilvis/patterns/java/singleton) |
 
 ## License
 
