@@ -8,7 +8,7 @@ With this part of the [Java patterns](../../../../../../../..) project, I provid
 
 In what follows, I give an overview of [sound](#1-implementations) and [faulty](#2-faulty-implementations) implementations of this design pattern.
 
-For general information about the singleton design pattern, refer to the [singleton section](https://github.com/mauritssilvis/patterns#311-singleton) of the [Patterns](https://github.com/mauritssilvis/patterns) readme.
+For general information about the singleton design pattern, refer to the [Singleton section](../../../../../../../../../#311-singleton) of the [Patterns](../../../../../../../../..) readme.
 
 ## 1. Implementations
 
