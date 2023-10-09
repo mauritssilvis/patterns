@@ -8,7 +8,7 @@ With this part of the [Patterns](..) project, I provide implementations of commo
 
 Below, I give an [overview](#overview) of the available design pattern implementations.
 
-## Overview
+## 1. Overview
 
 Currently, Java implementations of the following design patterns are available:
 
