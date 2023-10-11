@@ -4,15 +4,17 @@
 
 ## Introduction
 
-With this part of the [Patterns](https://github.com/mauritssilvis/patterns) project, I provide implementations of commonly used design patterns in Java.
+With this part of the [Patterns](..) project, I provide implementations of commonly used design patterns in Java.
 
-Below, I give an [overview](#overview) of the available design pattern implementations.
+Below, I give an [overview](#1-overview) of the available design pattern implementations.
 
-## Overview
+## 1. Overview
 
 Currently, Java implementations of the following design patterns are available:
 
-- [Singleton](src/main/java/nl/mauritssilvis/patterns/java/singleton)
+| Design pattern                                                      |
+|---------------------------------------------------------------------|
+| [Singleton](src/main/java/nl/mauritssilvis/patterns/java/singleton) |
 
 ## License
 

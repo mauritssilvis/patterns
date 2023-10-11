@@ -42,7 +42,7 @@ More specifically, I provide the following design pattern implementations:
 
 ## 3. Background
 
-More information on the [creational design patterns](#31-creational-design-patterns) I focus on in this project is given in what follows.
+In what follows, I give general information on the [creational design patterns](#31-creational-design-patterns) I focus on in this project.
 
 ### 3.1 Creational design patterns
 
