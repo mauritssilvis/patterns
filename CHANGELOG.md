@@ -25,3 +25,9 @@ and this project adheres to [semantic versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Add Java singleton design pattern implementations.
+
+## License
+
+Copyright © 2023 Maurits Silvis
+
+This source code package is subject to the terms and conditions defined in the [GNU General Public License v3.0](LICENSE.md) or later.
